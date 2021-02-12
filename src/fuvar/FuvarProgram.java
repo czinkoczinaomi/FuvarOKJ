@@ -21,7 +21,7 @@ public class FuvarProgram {
        List<String> sorok=Files.readAllLines(Paths.get("fuvar.csv"));
        ArrayList<Fuvar> fuvarok=new ArrayList<>();
        
-        for (int i = 0; i < sorok.size(); i++) {
+        for (int i = 1; i < sorok.size(); i++) {
             fuvarok.add(new Fuvar(sorok.get(i)));
         }
     }

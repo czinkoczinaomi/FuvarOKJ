@@ -24,6 +24,9 @@ public class FuvarProgram {
         for (int i = 1; i < sorok.size(); i++) {
             fuvarok.add(new Fuvar(sorok.get(i)));
         }
+        //3. feladat
+        int fuvarokSzama=fuvarok.size();
+        System.out.println("fuvarok száma: "+ fuvarokSzama);
     }
     
 }
